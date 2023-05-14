@@ -1,0 +1,84 @@
+#About {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3d/Code-1076536.jpg");
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#Anggota {
+  padding-top: 8rem;
+  padding-bottom: 18rem;
+  background-color: rgb(54, 54, 54);
+}
+
+#Services {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  min-height: 500;
+  background-color: black;
+}
+
+#Services .header-description {
+  padding-bottom: 6rem;
+}
+
+#Services .card-description {
+  padding-top: 4rem;
+}
+
+#Services .card {
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #005f9f;
+  font-family: "Noto sans", sans-serif;
+}
+
+#Services .card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Services .card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #005f9f7c;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: #fff;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+#Services .card-tittle {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#Services .card-subtittle {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#Services .card-info {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+#Services .card:hover .card-body {
+  right: 0;
+}
